@@ -9,7 +9,8 @@ project doc: https://docs.google.com/document/d/1d19W_cKxg8ztTj249h2xGiS63v9msbh
 4. Cloud: Not defined
  
 ## Feature Module:
-Seller Shop Management
+Seller Management
+Shop Management
 Pruduct Management
 Pruduct List Management
 
