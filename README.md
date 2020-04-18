@@ -33,10 +33,12 @@ Before Apr 16:
   Now we are working on Shop Management module, which allow user to upload their product. We think it is the key feature. So we start working on the most important one.
 
 
-Apr 18
+Apr 17
 - Add Shop/ Display Shop Module
   1. Junit Test on Dao, Service layer
   2. Implement frontend, controller
+  
+Apr 18  
 - User Login Module
   1. MD5 Hash on password
   2. all page rediret to login page when first access
