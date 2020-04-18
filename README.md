@@ -18,17 +18,25 @@ Pruduct List Management
 
 Before Apr 16:
 
-Database: 
-1. Has built MySql database
-3. Has designed database table
+- Database: 
+  1. Has built MySql database
+  3. Has designed database table
 
-Backend:
-MVC model
-1. Has configured MAVEN, Apache Tomcat
-2. Has configured JDBC
-3. Has configured DAO layer and test it with database
-4. Has configured Service layer and test it with Unit
+- Backend:
+  MVC model
+  1. Has configured MAVEN, Apache Tomcat
+  2. Has configured JDBC
+  3. Has configured DAO layer and test it with database
+  4. Has configured Service layer and test it with Unit
 
-Features:
-Now we are working on Shop Management features, which allow user to upload their product. We think it is the key feature. So we start working on the most important one.
+- Features:
+  Now we are working on Shop Management module, which allow user to upload their product. We think it is the key feature. So we start working on the most important one.
 
+
+Apr 18
+- Add Shop/ Display Shop Module
+  1. Junit Test on Dao, Service layer
+  2. Implement frontend, controller
+- User Login Module
+  1. MD5 Hash on password
+  2. all page rediret to login page when first access
