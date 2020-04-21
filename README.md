@@ -41,4 +41,17 @@ Apr 17
 Apr 18  
 - User Login Module
   1. MD5 Hash on password
-  2. all page rediret to login page when first access
+  2. all page rediret to login page when first access using Session
+ 
+  
+Apr 19  
+- Shop Management Module
+  1. Shop Mangement controller 
+  2. add image Thumbnail framework to support image upload
+ 
+Apr 20  
+- Shop Management Frontend Module
+  1. Shop Mangement Frontend （add shop, manage shop)
+  2. test with Database
+  
+   
