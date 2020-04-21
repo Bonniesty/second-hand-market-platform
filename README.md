@@ -9,11 +9,18 @@ project doc: https://docs.google.com/document/d/1d19W_cKxg8ztTj249h2xGiS63v9msbh
 4. Cloud: Not defined
  
 ## Feature Module:
-Seller Management
-Shop Management
-Pruduct Management
-Pruduct List Management
+We have two parts: 
+- Seller End
+  1. Seller Management
+  2. Shop Management
+  3. Pruduct Management
+  4. Pruduct List Management
 
+- Buyer End (Market End)
+  1. Product List Management
+  2. Product Detail Management
+
+  
 ## Current Work Update :
 
 Before Apr 16:
