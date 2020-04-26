@@ -4,9 +4,9 @@ project doc: https://docs.google.com/document/d/1d19W_cKxg8ztTj249h2xGiS63v9msbh
 ## Tech Architect:
 
 1. Front-end: jQuery
-2. Back-end: SSM (Spring, Spring MVC, MyBatis)
-3. Database: MySQL, Redis
-4. Cloud: Not defined
+2. Back-end: SSM (Spring, Spring MVC, MyBatis), Tomcat
+3. Database: MySQL
+4. Cloud: Alibaba Cloud
  
 ## Feature Module:
 We have two parts: 
