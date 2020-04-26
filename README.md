@@ -52,7 +52,7 @@ Apr 18
  
   
 Apr 19  
-- Shop Management Module
+- Shop Management Backend Module
   1. Shop Mangement controller 
   2. add image Thumbnail framework to support image upload
  
@@ -61,4 +61,26 @@ Apr 20
   1. Shop Mangement Frontend （add shop, manage shop)
   2. test with Database
   
-   
+Apr 22  
+- Product Management Frontend Module
+  1. Product Mangement Frontend （add product, on/off shelf, edit)
+    
+Apr 23  
+- Product Management Backend Module
+  1. Product Mangement controller
+  2. Product Mangement service layer
+  
+Apr 24  
+- Market End Module
+  1. Market End frontend(index main page, shop list, pruducte detail)
+  2. Market End service and controller layer
+  
+Apr 25  
+- Fix bug on Image on website not shown problem
+  
+Apr 26  
+- Ali Cloud
+  1. Migration database from local to Cloud.
+  2. Configure Tomcate, MySql, JDK on Cloud.
+ 
+  
