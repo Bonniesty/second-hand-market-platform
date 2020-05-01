@@ -1,12 +1,6 @@
 # second-hand-market-platform
-project doc: https://docs.google.com/document/d/1d19W_cKxg8ztTj249h2xGiS63v9msbhlOnLBqVDof2w/edit?usp=sharing
+We found out that there are plenty of things that can’t move with us after leaving campus. In this case, we need a platform facing all BU students that could help students to sell their second hand books, furniture or other household items in a more convenient way. Our online second-hand market platform allows BU students to publish used things and also buy cheap things. This platform includes features that sellers could have their shops with shop information and products list and buyers could view the whole shop list and view the products in detail. 
 
-## Tech Architect:
-
-1. Front-end: jQuery
-2. Back-end: SSM (Spring, Spring MVC, MyBatis), Tomcat
-3. Database: MySQL
-4. Cloud: Alibaba Cloud
  
 ## User Story:
 Seller:<br>
@@ -24,7 +18,15 @@ As a buyer, I can product detail of each shop<br>
 As a buyer, I can search shop by shop name<br>
 As a buyer, I can search product in each shop by product name<br>
 
+## Tech Architect:
 
+1. Front-end: jQuery
+2. Back-end: SSM (Spring, Spring MVC, MyBatis), Tomcat
+3. Database: MySQL
+4. Cloud: Alibaba Cloud
+
+## Software Architecture
+![Image text](https://github.com/Bonniesty/second-hand-market-platform/raw/master//sw%20architecture.png)
 
 ## Feature Module:
 We have two parts: 
