@@ -8,6 +8,10 @@ project doc: https://docs.google.com/document/d/1d19W_cKxg8ztTj249h2xGiS63v9msbh
 3. Database: MySQL
 4. Cloud: Alibaba Cloud
  
+## User Story:
+
+
+
 ## Feature Module:
 We have two parts: 
 - Seller End
