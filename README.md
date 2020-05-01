@@ -23,6 +23,21 @@ As a buyer, I can product detail of each shop<br>
 As a buyer, I can search shop by shop name<br>
 As a buyer, I can search product in each shop by product name<br>
 
+
+## Feature Module:
+We have two parts: 
+- Seller End
+  1. Seller Management
+  2. Shop Management
+  3. Product Management
+  4. Product List Management
+
+- Buyer End (Market End)
+  1. Shop List 
+  2. Product List
+  2. Product Detail 
+
+  
 ## Tech Architect:
 
 1. Front-end: jQuery
@@ -33,19 +48,6 @@ As a buyer, I can search product in each shop by product name<br>
 ## Software Architecture
 ![Image text](https://github.com/Bonniesty/second-hand-market-platform/raw/master//sw%20architecture.png)
 
-## Feature Module:
-We have two parts: 
-- Seller End
-  1. Seller Management
-  2. Shop Management
-  3. Pruduct Management
-  4. Pruduct List Management
-
-- Buyer End (Market End)
-  1. Product List Management
-  2. Product Detail Management
-
-  
 ## Current Work Update :
 
 Before Apr 16:
