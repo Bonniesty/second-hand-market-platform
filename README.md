@@ -44,6 +44,7 @@ We have two parts:
 2. Back-end: SSM (Spring, Spring MVC, MyBatis), Tomcat
 3. Database: MySQL
 4. Cloud: Alibaba Cloud
+5. Extra framework: ThumbNail image framework, MD5 hashing, JUnit, Session
 
 ## Software Architecture
 ![Image text](https://github.com/Bonniesty/second-hand-market-platform/raw/master//sw%20architecture.png)
