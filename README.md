@@ -9,6 +9,20 @@ project doc: https://docs.google.com/document/d/1d19W_cKxg8ztTj249h2xGiS63v9msbh
 4. Cloud: Alibaba Cloud
  
 ## User Story:
+Seller:<br>
+As a seller, I can have multiple shops<br>
+As a seller, I can edit my shop information<br> 
+As a seller, I can add products of each shop<br>
+As a seller, I can view a product detail page<br>
+As a seller, I can update products information according to each shop<br>
+As a seller, I can choose products to be on shelf or off shelf<br>
+
+Buyer:<br>
+As a buyer, I can view the product list according to shop list<br>
+As a buyer, I can view the contact information of each shop<br>
+As a buyer, I can product detail of each shop<br>
+As a buyer, I can search shop by shop name<br>
+As a buyer, I can search product in each shop by product name<br>
 
 
 
