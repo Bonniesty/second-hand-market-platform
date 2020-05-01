@@ -1,7 +1,6 @@
 
 $(function() {
 	var shopId = getQueryString('shopId');
-
 	var isEdit = shopId ? true : false;
 	var initUrl = '/o2o_war_exploded/shopadmin/getshopinitinfo';
 	var registerShopUrl = '/o2o_war_exploded/shopadmin/registershop';
@@ -43,7 +42,9 @@ $(function() {
 		shop.phone = $('#shop-phone').val();
 		shop.shopDesc = $('#shop-desc').val();
 		
+		
 		var shopImg = $('#shop-img')[0].files[0];
+		console.log(shopImg);
 		var formData = new FormData();
 		formData.append('shopImg', shopImg);
 		formData.append('shopStr', JSON.stringify(shop));
@@ -64,7 +65,7 @@ $(function() {
 				} else {
 					$.toast('Fail！' + data.errMsg);
 				}
-			
+				
 			}
 		});
 	});

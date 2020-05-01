@@ -3,18 +3,16 @@ $(function() {
 	var statusUrl = '/o2o_war_exploded/shopadmin/modifyproduct';
 	getList();
 
-
 	function getList() {
 		$.getJSON(listUrl, function(data) {
 			if (data.success) {
 				var productList = data.productList;
 				var tempHtml = '';
-				
 				productList.map(function(item, index) {
-					var textOp = "Off Shell";
+					var textOp = "Off Shelf";
 					var contraryStatus = 0;
 					if (item.enableStatus == 0) {
-						textOp = "On Shell";
+						textOp = "On Shelf";
 						contraryStatus = 1;
 					} else {
 						contraryStatus = 0;
@@ -51,7 +49,6 @@ $(function() {
 			}
 		});
 	}
-
 	$('.product-wrap')
 			.on(
 					'click',

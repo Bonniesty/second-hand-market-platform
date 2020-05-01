@@ -2,13 +2,11 @@ $(function() {
 	var productId = getQueryString('productId');
 	var infoUrl = '/o2o_war_exploded/shopadmin/getproductbyid?productId=' + productId;
 	var productPostUrl = '/o2o_war_exploded/shopadmin/modifyproduct';
-	
 	var isEdit = false;
 	if (productId) {
 		getInfo(productId);
 		isEdit = true;
 	} else {
-		getCategory();
 		productPostUrl = '/o2o_war_exploded/shopadmin/addproduct';
 	}
 
@@ -18,7 +16,6 @@ $(function() {
 						infoUrl,
 						function(data) {
 							if (data.success) {
-								
 								var product = data.product;
 								$('#product-name').val(product.productName);
 								$('#product-desc').val(product.productDesc);
@@ -27,27 +24,11 @@ $(function() {
 								$('#normal-price').val(product.normalPrice);
 								$('#promotion-price').val(
 										product.promotionPrice);
-								
 							}
 						});
 	}
 
-	function getCategory() {
-		$.getJSON(categoryUrl, function(data) {
-			if (data.success) {
-				var productCategoryList = data.data;
-				var optionHtml = '';
-				productCategoryList.map(function(item, index) {
-					optionHtml += '<option data-value="'
-							+ item.productCategoryId + '">'
-							+ item.productCategoryName + '</option>';
-				});
-				$('#category').html(optionHtml);
-			}
-		});
-	}
-
-
+	
 	$('.detail-img-div').on('change', '.detail-img:last-child', function() {
 		if ($('.detail-img').length < 6) {
 			$('#detail-img').append('<input type="file" class="detail-img">');
@@ -88,10 +69,8 @@ $(function() {
 					success : function(data) {
 						if (data.success) {
 							$.toast('Success！');
-							$('#captcha_img').click();
 						} else {
 							$.toast('Fail！');
-							$('#captcha_img').click();
 						}
 					}
 				});
