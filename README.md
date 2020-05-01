@@ -1,6 +1,11 @@
 # second-hand-market-platform
 We found out that there are plenty of things that can’t move with us after leaving campus. In this case, we need a platform facing all BU students that could help students to sell their second hand books, furniture or other household items in a more convenient way. Our online second-hand market platform allows BU students to publish used things and also buy cheap things. This platform includes features that sellers could have their shops with shop information and products list and buyers could view the whole shop list and view the products in detail. 
+## Website Location:
+Market End: http://121.199.8.217/o2o_war_exploded/frontend/index
 
+Seller Management End: http://121.199.8.217/o2o_war_exploded/local/login
+- Account: 
+Username: testusername Password: *****
  
 ## User Story:
 - Seller:<br>
